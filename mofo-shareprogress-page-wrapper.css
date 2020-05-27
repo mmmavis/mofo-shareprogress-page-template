@@ -35,6 +35,10 @@ p {
   width: 350px !important;
 }
 
+#footer_content {
+  margin-bottom: 30px !important;
+}
+
 #footer_content .link-wrapper {
   text-align: center;
   margin-top: 20px;
@@ -153,23 +157,29 @@ p {
   margin-left: -50px !important;
 }
 
+.copy-paste.link-elem.desktop-elem,
+#click_to_copy_target {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size: 14px !important;
+}
+
 .sprog-content #main_share .email-share .email-icon {
-  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_mail@2x.jpg") !important;
+  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_mail-icon@2x.png") !important;
   background-size: contain !important;
 }
 
 .sprog-content #main_share .fb-share .fb-icon {
-  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_facebook@2x.jpg") !important;
+  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_facebook-icon@2x.png") !important;
   background-size: contain !important;
 }
 
 .sprog-content #other_share .tw-share {
-  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_twitter@2x.jpg") !important;
+  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_twitter-icon@2x.png") !important;
   background-size: contain !important;
 }
 
 .sprog-content #other_share .link-share .click-to-copy {
-  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_button-sprite@2x.jpg") !important;
+  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_blue-button-sprite@2x.png") !important;
   background-size: 100% auto !important;
 }
 
@@ -251,7 +261,7 @@ p {
 
   #header_content,
   #footer_content {
-    width: 815px !important;
+    width: 805px !important;
   }
 
   .sprog-content #other_share .link-share .copy-paste {
