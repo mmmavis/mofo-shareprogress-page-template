@@ -10,62 +10,15 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1">
   <link href="/basic.css" media="all" rel="stylesheet" type="text/css" />
-  <style>
-    @font-face {
-      font-family: "ZillaSlab-Light";
-      src: url("https:www.typeoutloud.org/assets/fonts/ZillaSlab-Light.woff");
-    }
-    #header {
-      background: #17FFFF;
-      border: none;
-    }
-    #header #header_content span {
-      color: #17FFFF;
-      background: #000;
-      padding: 0px 3px;
-      font-size: 28px;
-      font-family: "ZillaSlab-Light", "Arvo","Fira Sans", "Helvetica Neue", "Arial", sans-serif;
-    }
-    .sprogc-content {
-      left: 0;
-      border: none;
-      box-shadow: none;
-      padding: 0;
-    }
-    .cta {
-      font-size: 26px;
-      font-weight: 200;
-      line-height: 35.75px;
-      margin-bottom: 10px;
-      margin-top: 20px;
-      text-align: center;
-      margin: 0 auto;
-      font-family: "ZillaSlab-Light", "Arvo","Fira Sans", "Helvetica Neue", "Arial", sans-serif;
-    }
-    .cta a {
-      font-weight: 600;
-      color: inherit;
-      padding: 0 2px;
-    }
-    .cta a:hover {
-      text-decoration: none;
-      color: #17FFFF;
-      background: #000;
-    }
-    body {
-      background: #17FFFF;
-    }
-    .content-title {
-      display: none;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Zilla+Slab:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress-page-wrapper.css" rel="stylesheet">
 </head>
 
 <body>
 
   <div id="header">
     <div id="header_content">
-      <span>Mozilla</span>
+      <img src="https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mozilla-logo.svg" width="100px">
     </div> <!-- #header_content -->
   </div> <!-- #header -->
 
@@ -73,5 +26,10 @@
   <div class="content">
   {ShareAction}
   </div> <!-- .content -->
+
+  <footer id="footer_content">
+    <div class="link-wrapper"><a href="https://www.mozilla.org/privacy">Mozilla Privacy Policy</a></div>
+    <div class="link-wrapper"><a href="https://run.shareprogress.org/privacy">ShareProgress Privacy Policy</a></div>
+  </footer>
 </body>
 </html>

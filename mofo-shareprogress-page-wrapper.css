@@ -1,0 +1,270 @@
+/* All the !important rules are
+   To override CSS rules injected by Shareprogress' script */
+
+  body {
+  background: #b7b9fa; /* Foudation Brand $light-blue */
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Zilla Slab', serif !important;
+  font-weight: 500 !important;
+}
+
+h6,
+p {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.sprog-content #share_image .step1 p {
+  font-size: 16px;
+}
+
+#header {
+  border: none;
+  background: none;
+  height: auto;
+  margin: 12px 0;
+}
+
+#header_content {
+  width: 350px !important;
+}
+
+#footer_content {
+  margin-bottom: 30px !important;
+}
+
+#footer_content .link-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#footer_content a {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size: 12px !important;
+  color: #595cf3 !important; /* Foudation Brand $blue */
+  text-decoration: none !important;
+}
+
+#footer_content a:hover {
+  text-decoration: underline !important;
+}
+
+.sprogc-content {
+  left: 0;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.cta {
+  font-size: 26px;
+  font-weight: 200;
+  line-height: 35.75px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "ZillaSlab-Light", "Arvo","Fira Sans", "Helvetica Neue", "Arial", sans-serif;
+}
+.cta a {
+  font-weight: 600;
+  color: inherit;
+  padding: 0 2px;
+}
+
+.cta a:hover {
+  text-decoration: none;
+  color: #17FFFF;
+  background: #000;
+}
+
+.content-title {
+  display: none;
+}
+
+.sprog-content {
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+  margin: 0 auto !important;
+  padding-top: 30px !important;
+}
+
+.sprog-content .anim-img.step2.tablet-elem,
+.sprog-content #share_image .share-img.tablet-elem,
+.sprog-content #share_image .mobile-direction.mobile-elem img {
+  display: none !important;
+}
+
+.sprog-content #share_image .mobile-direction.mobile-elem,
+.sprog-content .image-box.tablet-elem {
+  background-image: url(https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress-page-wrapper-default-cropped.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.sprog-content #share_image .mobile-direction.mobile-elem {
+  width: calc(100% - 30px);
+  height: 200px;
+}
+
+.sprog-content .image-box.tablet-elem {
+  position: relative;
+  top: 0;
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.sprog-content #main_share .email-share,
+.sprog-content #main_share .fb-share {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.sprog-content #main_share .email-share,
+.sprog-content #main_share .fb-share,
+.sprog-content #main_share .fb-message {
+  border-width: 4px !important;
+}
+
+.sprog-content #main_share .email-share .email-btn,
+.sprog-content #main_share .fb-share .fb-btn {
+  width: 100% !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.sprog-content #main_share .email-share .email-btn a,
+.sprog-content #main_share .fb-share .fb-btn a {
+  background: #595cf3 !important; /* Foudation brand $blue */
+  width: 100% !important;
+}
+
+.sprog-content #main_share .email-share .email-title,
+.sprog-content #main_share .fb-share .fb-title {
+  margin-left: 0 !important;
+}
+
+.sprog-content #main_share .email-share .email-icon,
+.sprog-content #main_share .fb-share .fb-icon {
+  margin-left: -50px !important;
+}
+
+.copy-paste.link-elem.desktop-elem,
+#click_to_copy_target {
+  font-family: 'Nunito Sans', sans-serif !important;
+  font-size: 14px !important;
+}
+
+.sprog-content #main_share .email-share .email-icon {
+  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_mail-icon@2x.png") !important;
+  background-size: contain !important;
+}
+
+.sprog-content #main_share .fb-share .fb-icon {
+  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_facebook-icon@2x.png") !important;
+  background-size: contain !important;
+}
+
+.sprog-content #other_share .tw-share {
+  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_twitter-icon@2x.png") !important;
+  background-size: contain !important;
+}
+
+.sprog-content #other_share .link-share .click-to-copy {
+  background-image: url("https://mofo-assets.s3.amazonaws.com/shareprogress/page-wrapper/mofo-shareprogress_blue-button-sprite@2x.png") !important;
+  background-size: 100% auto !important;
+}
+
+.sprog-content #main_share .email-share .copy-paste {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.sprog-content #main_share .fb-share .fb-description {
+  width: 100% !important;
+  padding-top: 0 !important;
+}
+
+.sprog-content #other_share .link-share .copy-paste {
+  border-color: #999999 !important; /* Foundation brand $gray-40 */
+}
+
+.sprog-content #sp-red-arrow.step-1,
+.sprog-content #sp-red-arrow {
+  display: none !important;
+}
+
+.sprog-wrap .sprog-below {
+  display: none !important;
+}
+
+.sprog-content #other_share .link-share .copy-paste {
+  border-color: #cccccc !important; /* Foundation brand $gray-20 */
+}
+
+.sprog-content #other_share {
+  height: auto !important;
+}
+
+@media only screen and (min-width: 680px) {
+  #header_content,
+  #footer_content {
+    width: 665px !important;
+  }
+
+  .sprog-content #share_image .step1 p {
+    font-size: 14px !important;
+  }
+
+  .sprog-content #share_image .step1 {
+    width: 80% !important;
+    top: 0 !important;
+  }
+
+  .sprog-content #share_image {
+    height: 350px !important;
+  }
+
+  .sprog-content #other_share {
+    margin-left: 20px !important;
+  }
+
+  .sprog-content #other_share .link-share .copy-paste {
+    width: 420px !important;
+  }
+}
+
+@media only screen and (min-width: 830px) {
+  .sprog-content .image-box.tablet-elem {
+    top: 70px;
+  }
+
+  .sprog-content #share_image .step1 {
+    left: 30px !important;
+  }
+
+  .sprog-content #share_image {
+    width: 475px !important;
+  }
+
+  .sprog-content #other_share {
+    margin-left: 30px !important;
+  }
+
+  #header_content,
+  #footer_content {
+    width: 805px !important;
+  }
+
+  .sprog-content #other_share .link-share .copy-paste {
+    width: 545px !important;
+  }
+}
